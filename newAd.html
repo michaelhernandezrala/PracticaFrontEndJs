@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/lds-circle.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/new-advert.css">
+    <title>Desarrollo Frontend con JavaScript</title>
+</head>
+<body>
+    <header class="header">
+        <a href="/">
+            <img src="./img/logo.png" alt="">
+        </a>
+        <div class="header__buttons">
+            <a href="#">Login</a>
+            <a href="#">Sign up</a>
+        </div>
+    </header>
+    <main class="new-ad__main">
+        <div class="overlay">
+            <section class="new-ad__main--section">
+                <form class="new-ad__form" novalidate>
+                    <div class="form-control">
+                        <label for="photo">Photo</label>
+                        <input type="text" name="photo" placeholder="URL Image" autofocus>
+                    </div>
+                    <div class="form-control">
+                        <label for="title">Title</label>
+                        <input type="text" name="title" placeholder="Title" required autofocus>
+                    </div>
+                    <div class="form-control">
+                        <label for="description">Description</label>
+                        <textarea name="description" placeholder="Description" required></textarea>
+                    </div>
+                    <div class="form-control">
+                        <label for="price">Price</label>
+                        <input type="number" name="price" placeholder="50 €" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="type">Type</label>
+                        <select name="type">
+                            <option value="#" selected>-- Choose an option</option>
+                            <option value="sell">Sell</option>
+                            <option value="buy">Buy</option>
+                          </select>
+                    </div>
+                    <div class="form-control">
+                        <button type="submit">Create advert</button>
+                    </div>
+                    <div class="form-control">
+                        <div class="control-message"></div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>   
+    <div class="ads-list"></div>
+    <script src="./js/newAdvert.js" type="module"></script>
+    <script src="./js/header.js" type="module"></script>
+</body>
+</html>

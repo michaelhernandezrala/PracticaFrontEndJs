@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/message.css">
+    <title>Login - Desarrollo Frontend con JavaScript</title>
+</head>
+
+<body>
+    <main class="auth__main">
+        <div class="auth__overlay">
+            <section class="auth__main--section">
+                <h1 class="auth__title">Login</h1>
+                <form class="auth__form" novalidate>
+                    <div class="form-control">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" placeholder="Username" required autofocus>
+                    </div>
+                    <div class="form-control">
+                        <label for="">Password</label>
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-control">
+                        <button type="submit" disabled>login</button>
+                    </div>
+                </form>
+                <div class="control-message"></div>
+            </section>
+        </div>
+    </main>
+    <script src="./js/login.js" type="module"></script>
+</body>
+</html>
