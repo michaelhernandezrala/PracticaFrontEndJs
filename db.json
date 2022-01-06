@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "username": "1",
+      "password": "$2b$10$8Z6BOVsQeRz861y41ecGbesxE4GSpWW1sqjmBz0bhFHYNeo0yPVjC",
+      "id": 1
+    },
+    {
+      "username": "2",
+      "password": "$2b$10$8Z6BOVsQeRz861y41ecGbeVC4dYQGJ6FFAL3RHZQRPySlT5OAfbDe",
+      "id": 2
+    }
+  ],
+  "adverts": [
+    {
+      "title": "Lorem ",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+      "price": "122",
+      "type": "sell",
+      "image": "https://neomotor.sport.es/media/2021/06/seat-arona-2022-13.jpg",
+      "userId": 1,
+      "updatedAt": "2022-01-06T12:23:05.275Z",
+      "id": 1
+    },
+    {
+      "title": "Lorem",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+      "price": "211",
+      "type": "buy",
+      "image": "https://st.depositphotos.com/1020341/4233/i/450/depositphotos_42333899-stock-photo-portrait-of-huge-beautiful-male.jpg",
+      "userId": 1,
+      "updatedAt": "2022-01-06T12:24:44.348Z",
+      "id": 2
+    },
+    {
+      "title": "&lt;p style=\"color: red;\"&gt;Texto Rojo&lt;/p&gt;",
+      "description": "&lt;p style=\"color: red;\"&gt;Texto Rojo&lt;/p&gt;",
+      "price": "0",
+      "type": "sell",
+      "userId": 2,
+      "updatedAt": "2022-01-06T12:26:41.618Z",
+      "id": 4
+    }
+  ]
+}
